@@ -199,3 +199,74 @@ h3{
 
 }
 
+/* - - - - - - - - - - - F4 - - - - - - - - - - - - - - */
+.boxf4{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cabecera_f4 h2{
+    margin: 60px 0 0 0;
+    color: #ffffff;
+    font-weight: 550;
+    font-size: 66px;
+}
+.cabecera_f4 p{
+    color: #bbb;
+    line-height: 1.5;
+    font-size: 21px;
+    font-weight: 300;
+}
+.img_f4_tools{
+    width: 1170px;
+    margin-bottom: 10px;
+}
+.box_info_tools{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    gap:100px;
+    width: 1150px;
+    margin-left: 340px;
+}
+.info_tools_box_indiv{
+    text-align: start;
+}
+
+
+.info_tools_box_indiv p{
+    color: #bbb;
+    line-height: 1.5;
+    font-size: 23px;
+    font-weight: 300;
+    margin: 0;
+}
+.info_tools_box_indiv .titulo_tools {
+    color:#ffffff;
+    font-weight:600;
+    margin: 15px 0 5px 0;
+}
+.icon_img{
+    width: 45px;
+}
+.info_tools_box_indiv .blue_text{
+    color: #0f7dd6;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.pie_f4{
+    display: flex;
+     margin: 150px 0 10px 0;
+     align-items: center;
+}
+.pie_f4 img{
+    height: 50px;
+}
+.plus_final{
+    color: #0f7dd6;
+    font-size: 25px;
+}
