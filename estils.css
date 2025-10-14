@@ -1,0 +1,86 @@
+body{
+    font-family: sans-serif;
+}
+
+
+/* - - - - - - - - - - F1 - - - - - - - - - - - - - */
+.boxf1{
+    width: 75vw;
+    margin: auto;
+    align-items: center;
+}
+
+nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav::after { 
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1.5px;
+  width: 100%;
+  background: linear-gradient(to right, #333 9%, #ccc 8%);
+}
+nav p{
+    color: #333;
+    font-weight: 300;
+}
+.p1_nav{
+    color: #111;
+}
+
+.box_opcions{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.opcions_l{
+    display: flex;
+    align-items: center;
+}
+.icono_pincel{
+    height: 35px;
+}
+
+.nom_programa{
+    font-weight: 550;
+    font-size: 25px;
+    padding: 0 5px 0 10px;
+    margin: 0;
+    
+}
+.nom_num{
+    font-weight: 100;
+    font-size: 25px;
+    margin: 0;
+}
+.opcions_r{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+.opcions_r p{
+    font-size: 15px;
+    color: #333;
+    font-weight: 300;
+}
+.opcions_r button{
+    background-color: rgb(246, 67, 96);
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    padding: 6px 14px;
+}
+.box_img_portatil{
+    display: flex;
+    justify-content: center;
+}
+.img_portatil{
+    padding: 80px 0 50px 0;
+    height: 770px;
+    
+}
