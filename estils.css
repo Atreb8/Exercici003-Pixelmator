@@ -84,3 +84,35 @@ nav p{
     height: 770px;
     
 }
+
+/* - - - - - - - - - - - - F2 - - - - -- - - - - - - - - */
+.boxf2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #eee;
+}
+.boxf2 p{
+    font-size: 22px;
+    font-weight: 100;
+    padding-top: 100px;
+    text-align: center;
+    margin: auto;
+    line-height: 1.5;
+}
+.boton-appstore {
+    margin: 35px 0 110px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 39px;
+    background-color: #fff;
+    color: rgb(246, 67, 96); /* Esto cambia también el color del SVG */
+    border: 1px solid rgb(246, 67, 96);
+    border-radius: 30px;
+    font-size: 16px;
+}
+.boton-appstore svg {
+    width: 22px;
+    height: auto;
+}
