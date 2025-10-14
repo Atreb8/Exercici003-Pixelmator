@@ -1,5 +1,5 @@
 body{
-    font-family: sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
@@ -316,21 +316,25 @@ h3{
     width: 1000px;
     border-radius: 20px;
     background-color: #efefef; 
+    overflow: hidden;
 }
-.rectangle_f6 p {
+.texto_f6{
+    color: #111;
     font-size: 19px;
     font-weight: 300;
     line-height: 1.4;
-    margin: 55px 110px 0 50px;
+    margin: 0 110px 0 55px;
     
 }
 .img_rectangle_f6{
     height: 350px;
+    margin-top: 55px;
     
     
 }
 .titulo_f6{
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 60px 0 15px 55px;
     
 }
