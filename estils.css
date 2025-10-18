@@ -34,6 +34,11 @@ nav p{
 }
 
 .box_opcions{
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+    background-color: rgba(255, 255, 255, 0.8); /* Blanco translúcido */
+    backdrop-filter: blur(8px); /* Difumina el fondo detrás */
     padding-top: 5px;
     display: flex;
     justify-content: space-between;
@@ -309,7 +314,8 @@ h3{
 
 .boxf6{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     box-shadow: 0px -5px 15px -10px rgba(0, 0, 0, 0.1);
     padding: 30px;
 }
@@ -340,4 +346,11 @@ h3{
     font-weight: 600;
     margin: 60px 0 15px 55px;
     
+}
+
+.box_dos_cuadradosf6{
+    display: flex;
+}
+.cuadradosf6_izq{
+    padding: 25px 0 30px 20px;
 }
