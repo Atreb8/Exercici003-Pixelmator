@@ -349,6 +349,7 @@ h3{
   text-align: center;
   justify-content: center;
   align-items: center;
+  gap:30px;
 }     
  .f7 .contenedor1{
    width: 100%;
@@ -365,4 +366,107 @@ h3{
       width: 90%;
       border-radius: 20px;
       box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* - - - - - - - - - - - F8 - - - - - - - - - - - - - - */
+.Boxf8{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    background-image: url(./imgExerciciPixelmator/img_text@2x.jpg) ;
+    background-size: cover; 
+  background-position: center;   /* Centra la imagen */
+  background-repeat: no-repeat;  /* Evita que se repita */
+   background-size: contain;
+}
+  
+
+.headerf8{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 30px 100px;
+    width: 700px;  
+}
+
+.carta-verde{
+    border-radius: 25px;
+    width: 1000px;
+    background: #29bd81;
+    display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+    
+
+.carta-verde p{
+    color: white;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    
+}
+
+.carta-verde h3{
+    color: white;
+    margin-left: 6px;
+    
+    
+}
+
+.carta-verde img{
+    width: 100%;
+  height: 350px;
+  object-fit: cover;   /*  llena el espacio recortando un poco */
+  border-radius: 20px; /* mantiene bordes redondeados */
+  display: block;      /* evita espacios debajo de la imagen */
+    
+}
+
+.cartas_f8{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.New-York{
+    border-radius:20px;
+    width: 400px; 
+    background-color:#f9f9f9 ;
+    color:#565656;
+    align-items: center;
+  height: 300px;
+    padding: 20px;
+    
+   }
+.New-York h3{
+    color: black;
+    margin-left: 6px;
+}
+
+.New-York video{
+    width: 100%;
+  height: 50px;
+  align-items: left;
+}
+.graphique{
+    border-radius:20px;
+    width: 400px; 
+    background-color:#f9f9f9 ;
+    color:#565656;
+    align-items: center;
+    height: 300px;
+    padding: 20px;
+}
+.graphique h3{
+    color: black;
+    margin-left: 6px;
+}
+.graphique img{
+    width: 80%;
+  height: 80px;
+  
 }
