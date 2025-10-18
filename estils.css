@@ -351,27 +351,56 @@ h3{
 .box_dos_cuadradosf6{
     display: flex;
     margin: 50px;
+    margin-bottom: 0;
     gap: 40px;
 }
-.cuadradosf6_izq{
-    padding: 55px 130px 50px 75px;
+.cuadradosf6_izq {
+    position: relative; /* Necesario para el ::after */
+    padding: 50px 130px 0px 75px;
     background-color: #2f434a;
     border-radius: 20px;
 }
+
+/* Línea vertical decorativa a la izquierda del contenido */
+.cuadradosf6_izq::before {
+    content: "";
+    position: absolute;
+    top: 55px; 
+    bottom: 0px; 
+    left: 72px;
+    width: 1px;
+    background-color: rgb(223, 198, 90);
+    border-radius: 2px;
+}
+
 .cuadradosf6_izq h2{
-    font-size: 70px;
+    position: relative; /* Necesario para el ::after */
+    font-size: 65px;
     color: #ffffff;
     font-weight: 500;
-    margin: 0;
-    margin-bottom: 45px;
+    margin: 0 0 45px 5px;
+    
 }
-.cuadradosf6_izq p{
+/* Línea horizontal decorativa debajo del h2 */
+.cuadradosf6_izq h2::after {
+    content: "";
+    position: absolute;
+    left:-7px;
+    bottom: -5px; /* Distancia entre el texto y la línea */
+    width: 475px;
+    height: 1px;
+    background-color: rgb(223, 198, 90);
+    border-radius: 2px;
+}
+
+.cuadradosf6_izq p {
     font-size: 19px;
     color: #ccc;
     font-weight: 200;
     line-height: 1.4;
-    
 }
+
+
 .cuadradosf6_der{
     background-color: #efefef ;
     text-align: start;
