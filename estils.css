@@ -350,7 +350,47 @@ h3{
 
 .box_dos_cuadradosf6{
     display: flex;
+    margin: 50px;
+    gap: 40px;
 }
 .cuadradosf6_izq{
-    padding: 25px 0 30px 20px;
+    padding: 55px 130px 50px 75px;
+    background-color: #2f434a;
+    border-radius: 20px;
+}
+.cuadradosf6_izq h2{
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 45px;
+}
+.cuadradosf6_izq p{
+    font-size: 19px;
+    color: #ccc;
+    font-weight: 200;
+    line-height: 1.4;
+    
+}
+.cuadradosf6_der{
+    background-color: #efefef ;
+    text-align: start;
+    padding: 60px;
+    border-radius: 20px;
+}
+.cuadradosf6_der h2{
+    font-weight: 500;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+.cuadradosf6_der p{
+    font-size: 19px;
+    color: #222;
+    font-weight: 200;
+    line-height: 1.4;
+    margin: 0;
+}
+.cuadradosf6_der img{
+    width: 260px;
+    margin-bottom: 40px;
 }
