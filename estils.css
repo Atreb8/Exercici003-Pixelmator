@@ -34,6 +34,11 @@ nav p{
 }
 
 .box_opcions{
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+    background-color: rgba(255, 255, 255, 0.8); /* Blanco translúcido */
+    backdrop-filter: blur(8px); /* Difumina el fondo detrás */
     padding-top: 5px;
     display: flex;
     justify-content: space-between;
@@ -309,7 +314,8 @@ h3{
 
 .boxf6{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     box-shadow: 0px -5px 15px -10px rgba(0, 0, 0, 0.1);
     padding: 30px;
 }
@@ -341,6 +347,7 @@ h3{
     margin: 60px 0 15px 55px;
     
 }
+
 
 /* - - - - - - - - - - - F7 - - - - - - - - - - - - - - */
 .f7{
@@ -468,5 +475,81 @@ h3{
 .graphique img{
     width: 80%;
   height: 80px;
-  
+}
+
+.box_dos_cuadradosf6{
+    display: flex;
+    margin: 50px;
+    margin-bottom: 0;
+    gap: 40px;
+}
+.cuadradosf6_izq {
+    position: relative; /* Necesario para el ::after */
+    padding: 50px 130px 0px 75px;
+    background-color: #2f434a;
+    border-radius: 20px;
+}
+
+/* Línea vertical decorativa a la izquierda del contenido */
+.cuadradosf6_izq::before {
+    content: "";
+    position: absolute;
+    top: 55px; 
+    bottom: 0px; 
+    left: 72px;
+    width: 1px;
+    background-color: rgb(223, 198, 90);
+    border-radius: 2px;
+}
+
+.cuadradosf6_izq h2{
+    position: relative; /* Necesario para el ::after */
+    font-size: 65px;
+    color: #ffffff;
+    font-weight: 500;
+    margin: 0 0 45px 5px;
+    
+}
+/* Línea horizontal decorativa debajo del h2 */
+.cuadradosf6_izq h2::after {
+    content: "";
+    position: absolute;
+    left:-7px;
+    bottom: -5px; /* Distancia entre el texto y la línea */
+    width: 475px;
+    height: 1px;
+    background-color: rgb(223, 198, 90);
+    border-radius: 2px;
+}
+
+.cuadradosf6_izq p {
+    font-size: 19px;
+    color: #ccc;
+    font-weight: 200;
+    line-height: 1.4;
+}
+
+
+.cuadradosf6_der{
+    background-color: #efefef ;
+    text-align: start;
+    padding: 60px;
+    border-radius: 20px;
+}
+.cuadradosf6_der h2{
+    font-weight: 500;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+.cuadradosf6_der p{
+    font-size: 19px;
+    color: #222;
+    font-weight: 200;
+    line-height: 1.4;
+    margin: 0;
+}
+.cuadradosf6_der img{
+    width: 260px;
+    margin-bottom: 40px;
+
 }
