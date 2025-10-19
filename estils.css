@@ -552,4 +552,51 @@ h3{
     width: 260px;
     margin-bottom: 40px;
 
+}   
+
+/* - - - - - - - - - - - - F9 - - - - -- - - - - - - - - */
+.cartas-imagen{
+    display: flex;
+    justify-content: space-;
+    gap: 150px;
+}
+.cartas-imagen img {
+    width: 50%;
+    height: auto;
+    
+}
+
+.over_60_effects{
+    border-radius: 20px ;
+    padding: 20px;
+    width: 500px; 
+    background-color: white;
+    color:#565656 ;
+
+}
+.over_60_effects h3{
+   color: #000000;
+    margin: 0px;
+}
+.Effects-Browser{
+    border-radius: 25px;
+    height: 500px;
+    background-color:#EC96B9 ;
+    color: white;
+    padding: 10px;
+}
+
+.Effects-Browser h3{
+   color: #ffffff;
+    margin: 0px;
+}
+.Effects-Browser img {
+    width: 120%;
+    height: auto;
+    margin-top: 39px;
+    position: relative;
+    left: -55px; 
+    
+   
+   
 }
