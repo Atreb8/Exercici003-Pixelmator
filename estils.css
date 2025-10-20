@@ -329,7 +329,7 @@ h3{
 }
 .texto_f6{
     color: #111;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 1.4;
     margin: 0 130px 0 55px;
@@ -348,32 +348,120 @@ h3{
     
 }
 
+.box_dos_cuadradosf6{
+    display: flex;
+    margin: 50px;
+    margin-bottom: 0;
+    gap: 40px;
+}
+.cuadradosf6_izq {
+    position: relative; /* Necesario para el ::after */
+    padding: 50px 130px 0px 75px;
+    background-color: #2f434a;
+    border-radius: 20px;
+}
+
+/* Línea vertical decorativa a la izquierda del contenido */
+.cuadradosf6_izq::before {
+    content: "";
+    position: absolute;
+    top: 55px; 
+    bottom: 0px; 
+    left: 72px;
+    width: 1px;
+    background-color: rgb(223, 198, 90);
+    border-radius: 2px;
+}
+
+.cuadradosf6_izq h2{
+    position: relative; /* Necesario para el ::after */
+    font-size: 65px;
+    color: #ffffff;
+    font-weight: 500;
+    margin: 0 0 45px 5px;
+    
+}
+/* Línea horizontal decorativa debajo del h2 */
+.cuadradosf6_izq h2::after {
+    content: "";
+    position: absolute;
+    left:-7px;
+    bottom: -5px; /* Distancia entre el texto y la línea */
+    width: 475px;
+    height: 1px;
+    background-color: rgb(223, 198, 90);
+    border-radius: 2px;
+}
+
+.cuadradosf6_izq p {
+    font-size: 19px;
+    color: #ccc;
+    font-weight: 200;
+    line-height: 1.4;
+}
+
+
+.cuadradosf6_der{
+    background-color: #efefef ;
+    text-align: start;
+    padding: 60px;
+    border-radius: 20px;
+}
+.cuadradosf6_der h2{
+    font-weight: 500;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+.cuadradosf6_der p{
+    font-size: 19px;
+    color: #222;
+    font-weight: 200;
+    line-height: 1.4;
+    margin: 0;
+}
+.cuadradosf6_der img{
+    width: 260px;
+    margin-bottom: 40px;
+
+}
+
 
 /* - - - - - - - - - - - F7 - - - - - - - - - - - - - - */
 .f7{
     display: flex;
-  flex-direction: column;          
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  gap:30px;
+    flex-direction: column;          
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
 }     
  .f7 .contenedor1{
-   width: 100%;
-  max-width: 900px;         
-  text-align: center;
+    width: 100%;
+    max-width: 900px;         
+    text-align: center;
+}
+.contenedor1 h1{
+    font-size:65px;
+    font-weight: 600;
+}
+.contenedor1 p{
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 300;
+    
 }
 .f7 .contenedor2{
-   width: 100%;
-  max-width: 900px;         
-  text-align: center;
+    width: 100%;
+    max-width: 900px;         
+    text-align: center;
 }
  
   .f7 video {
-      width: 90%;
-      border-radius: 20px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
+
 
 /* - - - - - - - - - - - F8 - - - - - - - - - - - - - - */
 .Boxf8{
@@ -383,11 +471,10 @@ h3{
     align-items: center;
     background-image: url(./imgExerciciPixelmator/img_text@2x.jpg) ;
     background-size: cover; 
-  background-position: center;   /* Centra la imagen */
-  background-repeat: no-repeat;  /* Evita que se repita */
-   background-size: contain;
-}
-  
+    background-position: center;   /* Centra la imagen */
+    background-repeat: no-repeat;  /* Evita que se repita */
+    background-size: contain;
+} 
 
 .headerf8{
     display: flex;
@@ -403,12 +490,10 @@ h3{
     width: 1000px;
     background: #29bd81;
     display: flex;
-  justify-content: space-between;
+    justify-content: space-between;
   
   
-}
-
-    
+}   
 
 .carta-verde p{
     color: white;
@@ -427,10 +512,10 @@ h3{
 
 .carta-verde img{
     width: 100%;
-  height: 350px;
-  object-fit: cover;   /*  llena el espacio recortando un poco */
-  border-radius: 20px; /* mantiene bordes redondeados */
-  display: block;      /* evita espacios debajo de la imagen */
+    height: 350px;
+    object-fit: cover;   /*  llena el espacio recortando un poco */
+    border-radius: 20px; /* mantiene bordes redondeados */
+    display: block;      /* evita espacios debajo de la imagen */
     
 }
 
@@ -456,8 +541,8 @@ h3{
 
 .New-York video{
     width: 100%;
-  height: 50px;
-  align-items: left;
+    height: 50px;
+    align-items: left;
 }
 .graphique{
     border-radius:20px;
@@ -474,8 +559,9 @@ h3{
 }
 .graphique img{
     width: 80%;
-  height: 80px;
+    height: 80px;
 }
+
 
 .box_dos_cuadradosf6{
     display: flex;
