@@ -426,6 +426,82 @@ h3{
 }
 
 
+.box_dos_cuadradosf6{
+    display: flex;
+    margin: 50px;
+    margin-bottom: 0;
+    gap: 40px;
+}
+.cuadradosf6_izq {
+    position: relative; /* Necesario para el ::after */
+    padding: 50px 130px 0px 75px;
+    background-color: #2f434a;
+    border-radius: 20px;
+}
+
+/* Línea vertical decorativa a la izquierda del contenido */
+.cuadradosf6_izq::before {
+    content: "";
+    position: absolute;
+    top: 55px; 
+    bottom: 0px; 
+    left: 72px;
+    width: 1px;
+    background-color: rgb(223, 198, 90);
+    border-radius: 2px;
+}
+
+.cuadradosf6_izq h2{
+    position: relative; /* Necesario para el ::after */
+    font-size: 65px;
+    color: #ffffff;
+    font-weight: 500;
+    margin: 0 0 45px 5px;
+    
+}
+/* Línea horizontal decorativa debajo del h2 */
+.cuadradosf6_izq h2::after {
+    content: "";
+    position: absolute;
+    left:-7px;
+    bottom: -5px; /* Distancia entre el texto y la línea */
+    width: 475px;
+    height: 1px;
+    background-color: rgb(223, 198, 90);
+    border-radius: 2px;
+}
+
+.cuadradosf6_izq p {
+    font-size: 19px;
+    color: #ccc;
+    font-weight: 200;
+    line-height: 1.4;
+}
+
+
+.cuadradosf6_der{
+    background-color: #efefef ;
+    text-align: start;
+    padding: 60px;
+    border-radius: 20px;
+}
+.cuadradosf6_der h2{
+    font-weight: 500;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+.cuadradosf6_der p{
+    font-size: 19px;
+    color: #222;
+    font-weight: 200;
+    line-height: 1.4;
+    margin: 0;
+}
+.cuadradosf6_der img{
+    width: 260px;
+    margin-bottom: 40px;
+
+}   
 
 /* - - - - - - - - - - - F6_5 - - - - - - - - - - - - - - */
 .color_titulo{
@@ -484,6 +560,7 @@ h3{
     background-position: center;   /* Centra la imagen */
     background-repeat: no-repeat;  /* Evita que se repita */
     background-size: contain;
+    
 } 
 
 .headerf8{
@@ -573,82 +650,6 @@ h3{
 }
 
 
-.box_dos_cuadradosf6{
-    display: flex;
-    margin: 50px;
-    margin-bottom: 0;
-    gap: 40px;
-}
-.cuadradosf6_izq {
-    position: relative; /* Necesario para el ::after */
-    padding: 50px 130px 0px 75px;
-    background-color: #2f434a;
-    border-radius: 20px;
-}
-
-/* Línea vertical decorativa a la izquierda del contenido */
-.cuadradosf6_izq::before {
-    content: "";
-    position: absolute;
-    top: 55px; 
-    bottom: 0px; 
-    left: 72px;
-    width: 1px;
-    background-color: rgb(223, 198, 90);
-    border-radius: 2px;
-}
-
-.cuadradosf6_izq h2{
-    position: relative; /* Necesario para el ::after */
-    font-size: 65px;
-    color: #ffffff;
-    font-weight: 500;
-    margin: 0 0 45px 5px;
-    
-}
-/* Línea horizontal decorativa debajo del h2 */
-.cuadradosf6_izq h2::after {
-    content: "";
-    position: absolute;
-    left:-7px;
-    bottom: -5px; /* Distancia entre el texto y la línea */
-    width: 475px;
-    height: 1px;
-    background-color: rgb(223, 198, 90);
-    border-radius: 2px;
-}
-
-.cuadradosf6_izq p {
-    font-size: 19px;
-    color: #ccc;
-    font-weight: 200;
-    line-height: 1.4;
-}
-
-
-.cuadradosf6_der{
-    background-color: #efefef ;
-    text-align: start;
-    padding: 60px;
-    border-radius: 20px;
-}
-.cuadradosf6_der h2{
-    font-weight: 500;
-    font-size: 21px;
-    margin-bottom: 10px;
-}
-.cuadradosf6_der p{
-    font-size: 19px;
-    color: #222;
-    font-weight: 200;
-    line-height: 1.4;
-    margin: 0;
-}
-.cuadradosf6_der img{
-    width: 260px;
-    margin-bottom: 40px;
-
-}   
 
 /* - - - - - - - - - - - - F9 - - - - -- - - - - - - - - */
 .boxf9{
