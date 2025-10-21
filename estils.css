@@ -840,3 +840,49 @@ font-size: 22px;
     font-weight: bold;
     font-size: 13px;
 }
+
+/* - - - - - - - - - - - - F11 - - - - -- - - - - - - - - */
+.f11{
+    color: rgb(202, 202, 202);
+}
+.box_f11{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.Powered_by_the_latest{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.Powered_by_the_latest h1{
+    font-size: 53px;
+
+}
+.Powered_by_the_latest p{
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 300
+
+}
+.contenedor_iconos_f11{
+    border: solid black ;
+    display: flex;
+    flex-wrap: wrap;
+    width: 870px;
+    gap: 70px;
+    justify-content: center;
+    text-align: left;
+    
+}
+.iconos_f11{
+    width: 20%;   
+
+}
+.contenedor_iconos_f11 h1{
+    font-size: 15px;
+}
