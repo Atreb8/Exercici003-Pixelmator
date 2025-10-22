@@ -886,7 +886,7 @@ font-size: 22px;
     font-size: 15px;
 }
 
-/* - - - - - - - - - - - - F12 - - - - -- - - - - - - - - */
+/* - - - - - - - - - - - - F13 - - - - -- - - - - - - - - */
 .box_f12{
     display: flex;
     flex-direction: column;
@@ -928,3 +928,39 @@ font-size: 22px;
     color: black;
     font-weight: bold;
 }
+/* - - - - - - - - - - - - F14 - - - - -- - - - - - - - - */
+.box_f13{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.box_f13 img{
+    width:10%;
+}
+.box_f13 p{
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.box_f13 h1{
+    font-size: 50px;  
+}
+
+
+
+.boton-rosa {
+  background-color: #ff4d88;  
+  color: white;               
+  border: none;               
+  border-radius: 25px;        
+  padding: 10px 25px;         
+  font-size: 16px;            
+  cursor: pointer;            /* cambia el cursor al pasar */
+}
+
+.boton-rosa:hover {
+  background-color: #ff1f6b;  /* hacer más oscuro al pasar el ratón */
+}
+
