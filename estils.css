@@ -867,7 +867,6 @@ font-size: 22px;
     font-size: 22px;
     line-height: 1.5;
     font-weight: 300
-
 }
 .contenedor_iconos_f11{
     border: solid black ;
@@ -885,4 +884,47 @@ font-size: 22px;
 }
 .contenedor_iconos_f11 h1{
     font-size: 15px;
+}
+
+/* - - - - - - - - - - - - F12 - - - - -- - - - - - - - - */
+.box_f12{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    
+}
+.We_know_you{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+.We_know_you h1{
+    font-size: 53px;
+
+}
+.We_know_you p{
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #555;
+}
+.iconos_f12{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    gap: 100px;
+    justify-content: center;
+    text-align: center;
+}
+.img_iconos_f12{
+    width: 45%;   
+
+}
+.p_iconos_f12{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
 }
