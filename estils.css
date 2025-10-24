@@ -567,9 +567,13 @@ h3{
     display: flex;
     justify-content: space-between;
     z-index: 2; 
-  
-  
+
 }   
+
+.carta-vede-titulo{
+    margin-left: 40px;
+
+}
 
 .carta-verde p{
     color: white;
