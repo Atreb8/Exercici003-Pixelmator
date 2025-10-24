@@ -83,10 +83,12 @@ nav p{
 .box_img_portatil{
     display: flex;
     justify-content: center;
+
 }
 .img_portatil{
     padding: 80px 0 50px 0;
-    height: 770px;
+    width: 115%;
+
     
 }
 
@@ -149,7 +151,8 @@ nav p{
 }
 .img_f3_1{
     margin-top: 10px;
-    height: 720px;
+    max-width: 1200px;
+    width: 100%;
 }
 
 .box_quadrats_f3{
@@ -226,7 +229,8 @@ h3{
     font-weight: 300;
 }
 .img_f4_tools{
-    width: 1170px;
+    max-width: 1170px;
+    width: 100%;
     margin-bottom: 10px;
 }
 .box_info_tools{
@@ -300,7 +304,8 @@ h3{
     font-weight: 300;
 }
 .img_f5{
-    width: 1100px;
+    max-width: 1100px;
+    width: 100%;
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
     margin: 50px 0 45px 0;
@@ -321,7 +326,8 @@ h3{
 }
 .rectangle_f6{
     display: flex;
-    width: 1000px;
+    max-width: 1000px;
+    width: 100%;
     border-radius: 20px;
     background-color: #efefef; 
     overflow: hidden;
