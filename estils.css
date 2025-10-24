@@ -853,7 +853,7 @@ font-size: 22px;
     color: black;
     font-weight: bold;
 }
-/* - - - - - - - - - - - - F14 - - - - -- - - - - - - - - */
+/* - - - - - - - - - - - - F13 - - - - -- - - - - - - - - */
 .box_f13{
     display: flex;
     flex-direction: column;
@@ -889,3 +889,39 @@ font-size: 22px;
   background-color: #ff1f6b;  /* hacer más oscuro al pasar el ratón */
 }
 
+/* - - - - - - - - - - - - Footer - - - - -- - - - - - - - - */
+
+.contenedor_footer{
+    display: flex;
+    justify-content:space-around ;
+    align-items: left;
+}
+
+.contenedor_footer h1{
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.contenedor_footer p{
+    font-size: 12px;
+    color: #555;
+
+}
+
+.Corporate_address p{
+    font-size: 10px;
+    color: #555;
+    
+}
+.Corporate_address{
+  width: 90%;             /* ocupa el 90% del ancho del contenedor padre */
+    max-width: 1225px;       /* no se expande más de 900px */
+    margin: 30px auto 0;    /* centrado horizontal con margen superior */
+    text-align: left;       /* texto alineado a la izquierda */
+    font-size: 13px;
+    color: #7d7d7d;
+    line-height: 1.6;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 15px;
+}
